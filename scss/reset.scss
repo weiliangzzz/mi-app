@@ -1,0 +1,45 @@
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font: 12px "微软雅黑",arial;
+    background: #fff;
+}
+
+a {
+    color: #2f2e2e;
+    text-decoration: none
+}
+
+em {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+p {
+    word-wrap: break-word
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: "";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}

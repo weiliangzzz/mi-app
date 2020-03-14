@@ -1,0 +1,47 @@
+#main {
+  overflow: hidden;
+  padding-bottom: 35px; }
+  #main .m_con {
+    margin-top: 20px; }
+    #main .m_con ul {
+      margin-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      border-top: 1px solid #e3e3e3;
+      border-left: 1px solid #e3e3e3; }
+      #main .m_con ul li {
+        padding: 25px 31px;
+        border-right: 1px solid #e3e3e3;
+        border-bottom: 1px solid #e3e3e3; }
+        #main .m_con ul li > a {
+          display: block; }
+          #main .m_con ul li > a img {
+            width: 176px;
+            height: 106px; }
+        #main .m_con ul li p {
+          margin-top: 10px;
+          display: flex;
+          width: 176px;
+          justify-content: space-between; }
+          #main .m_con ul li p a {
+            color: #373737;
+            font-weight: bold; }
+          #main .m_con ul li p span {
+            color: #a6a6a6; }
+    #main .m_con .go_1 {
+      float: right; }
+      #main .m_con .go_1 a {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        border-radius: 3px;
+        border: 1px solid #e5e5e5;
+        outline: 0;
+        background: #fff;
+        text-align: center;
+        color: #909090;
+        line-height: 28px;
+        margin-left: 13px; }
+      #main .m_con .go_1 .disabled {
+        background-color: #f1f1f1; }

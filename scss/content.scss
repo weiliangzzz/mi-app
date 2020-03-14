@@ -1,0 +1,15 @@
+.star1_empty{
+    background: url(../images/star1-empty.png) no-repeat;
+    height: 15px;
+    width: 96px;
+    position: relative;
+    display: inline-block;
+    .star1_light{
+        position: absolute;
+        display: inline-block;
+        background-image: url(../images/star1-hover.png);
+        width: 96px;
+        height: 15px;
+        background-repeat: no-repeat;
+    }
+}
